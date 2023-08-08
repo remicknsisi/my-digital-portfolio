@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Ruby on Rails / React",
     description:
       "Your passport to seamless vacation planning. Whether booking trips with expert travel agents or seeking inspiration for your next adventure, Remick Travel Planner is your go-to app for unforgettable journeys.",
-    image: "./Proj5Gif.gif",
+    image: "./CapstoneDemo.gif",
     link: "https://github.com/remicknsisi/remick-travel-planner-app",
   },
   {
