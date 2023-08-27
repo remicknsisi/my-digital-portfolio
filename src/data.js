@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "RailsRiches",
+    subtitle: "Ruby on Rails / React",
+    description:
+      "Your path to financial prosperity, simplified! Transform your budgeting journey with this intuitive personal finance tracker app.",
+    image: "./RailsRiches.gif",
+    link: "https://github.com/remicknsisi/personal-finance-tracker",
+  },
+  {
     title: "Remick Travel Planner",
     subtitle: "Ruby on Rails / React",
     description:
