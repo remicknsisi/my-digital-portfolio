@@ -60,6 +60,14 @@ export const skills = [
 
 export const blogs = [
   {
+    title: "How To ~Use~ useContext",
+    author:
+      "Sisi Remick",
+    date:
+      "Aug 27",
+    link: "https://medium.com/@remicknsisi/how-to-use-usecontext-da0b9b69037c",
+  },
+  {
     title: "Tips & Tricks for a Ruby on Rails x React API: Debugging Common Problems",
     author:
       "Sisi Remick",
