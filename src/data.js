@@ -60,6 +60,14 @@ export const skills = [
 
 export const blogs = [
   {
+    title: "Demystifying the Redux Flow",
+    author:
+      "Sisi Remick",
+    date:
+      "Sep 5",
+    link: "https://medium.com/@remicknsisi/demystifying-the-redux-flow-21f396904e7e",
+  },
+  {
     title: "How To ~Use~ useContext",
     author:
       "Sisi Remick",
