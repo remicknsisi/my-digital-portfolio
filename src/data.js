@@ -51,6 +51,7 @@ export const projects = [
 
 export const skills = [
   "JavaScript",
+  "Redux",
   "React",
   "Rails",
   "Ruby",
