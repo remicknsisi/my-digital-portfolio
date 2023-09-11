@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "DivaDiaries",
+    subtitle: "Ruby on Rails / React",
+    description:
+      "Step into the fierce world of drag with our app, a glamorous social media platform where RuPaul's Drag Race stars shine. Unleash your inner queen and connect with drag royalty like never before!",
+    image: "./DivaDiaries.gif",
+    link: "https://github.com/remicknsisi/diva-diaries",
+  },
+  {
     title: "RailsRiches",
     subtitle: "Ruby on Rails / React",
     description:
@@ -56,7 +64,9 @@ export const skills = [
   "Rails",
   "Ruby",
   "HTML",
-  "CSS"
+  "CSS",
+  "Active Record",
+  "PostgreSQL"
 ];
 
 export const blogs = [
