@@ -71,6 +71,14 @@ export const skills = [
 
 export const blogs = [
   {
+    title: "Embracing Imposter Syndrome in Tech",
+    author:
+      "Sisi Remick",
+    date:
+      "Sep 13",
+    link: "https://medium.com/@remicknsisi/embracing-imposter-syndrome-in-tech-6159b76db4fb",
+  },
+  {
     title: "Demystifying the Redux Flow",
     author:
       "Sisi Remick",
