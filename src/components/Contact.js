@@ -63,7 +63,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 CONNECT WITH ME
               </h2> 
-              <a href="https://www.linkedin.com/in/sienna-remick-37b395143/" className="text-indigo-400 leading-relaxed">
+              <a href="https://www.linkedin.com/in/sienna-remick/" className="text-indigo-400 leading-relaxed">
                 LinkedIn
               </a>
             </div>
