@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "DivaDiaries 2.0",
+    subtitle: "Ruby on Rails / React",
+    description:
+      "Step into the fierce world of drag with our app, a glamorous social media platform where RuPaul's Drag Race stars shine. Unleash your inner queen and connect with drag royalty like never before! Now improved...",
+    image: "./DivaDiaries.gif",
+    link: "https://github.com/remicknsisi/diva-diaries-2.0",
+  },
+  {
     title: "DivaDiaries",
     subtitle: "Ruby on Rails / React",
     description:
