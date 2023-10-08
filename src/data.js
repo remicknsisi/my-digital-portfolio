@@ -71,6 +71,14 @@ export const skills = [
 
 export const blogs = [
   {
+    title: "Strategies for Algorithmic Problem Solving in Technical Interviews (JavaScript)",
+    author:
+      "Sisi Remick",
+    date:
+      "Oct 8",
+    link: "https://medium.com/@remicknsisi/strategies-for-algorithmic-problem-solving-in-technical-interviews-javascript-ea01475e7ff9",
+  },
+  {
     title: "Embracing Imposter Syndrome in Tech",
     author:
       "Sisi Remick",
