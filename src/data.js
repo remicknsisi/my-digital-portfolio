@@ -79,6 +79,14 @@ export const skills = [
 
 export const blogs = [
   {
+    title: "The Tech Job Hunt & Wisdom from Seasoned Engineers",
+    author:
+      "Sisi Remick",
+    date:
+      "Dec 8",
+    link: "  https://medium.com/@remicknsisi/the-tech-job-hunt-wisdom-from-seasoned-engineers-207526f91828",
+  },
+  {
     title: "Strategies for Algorithmic Problem Solving in Technical Interviews (JavaScript)",
     author:
       "Sisi Remick",
