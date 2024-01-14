@@ -69,8 +69,7 @@ export const skills = [
   "JavaScript",
   "Redux",
   "React",
-  "Rails",
-  "Ruby",
+  "Ruby on Rails",
   "HTML",
   "CSS",
   "Active Record",
@@ -79,19 +78,27 @@ export const skills = [
 
 export const blogs = [
   {
+    title: "Creating a Reusable Modal for Editing Different Object Types in a React x TypeScript Application",
+    author:
+      "Sisi Remick",
+    date:
+      "Jan 13, 2024",
+    link: "https://medium.com/@remicknsisi/creating-a-reusable-modal-for-editing-different-object-types-in-a-react-x-typescript-application-89db18ff2347",
+  },
+  {
     title: "The Tech Job Hunt & Wisdom from Seasoned Engineers",
     author:
       "Sisi Remick",
     date:
-      "Dec 8",
-    link: "  https://medium.com/@remicknsisi/the-tech-job-hunt-wisdom-from-seasoned-engineers-207526f91828",
+      "Dec 8, 2023",
+    link: "https://medium.com/@remicknsisi/the-tech-job-hunt-wisdom-from-seasoned-engineers-207526f91828",
   },
   {
     title: "Strategies for Algorithmic Problem Solving in Technical Interviews (JavaScript)",
     author:
       "Sisi Remick",
     date:
-      "Oct 8",
+      "Oct 8, 2023",
     link: "https://medium.com/@remicknsisi/strategies-for-algorithmic-problem-solving-in-technical-interviews-javascript-ea01475e7ff9",
   },
   {
@@ -99,7 +106,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Sep 13",
+      "Sep 13, 2023",
     link: "https://medium.com/@remicknsisi/embracing-imposter-syndrome-in-tech-6159b76db4fb",
   },
   {
@@ -107,7 +114,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Sep 5",
+      "Sep 5, 2023",
     link: "https://medium.com/@remicknsisi/demystifying-the-redux-flow-21f396904e7e",
   },
   {
@@ -115,7 +122,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Aug 27",
+      "Aug 27, 2023",
     link: "https://medium.com/@remicknsisi/how-to-use-usecontext-da0b9b69037c",
   },
   {
@@ -123,7 +130,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Jul 11",
+      "Jul 11, 2023",
     link: "https://medium.com/@remicknsisi/tips-tricks-for-a-ruby-on-rails-x-react-api-debugging-common-problems-9e2973337e50",
   },
   {
@@ -131,7 +138,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Apr 10",
+      "Apr 10, 2023",
     link: "https://medium.com/@remicknsisi/how-to-use-back-end-instance-methods-as-front-end-object-attributes-5e881066a4ae",
   },
   {
@@ -139,7 +146,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Feb 21",
+      "Feb 21, 2023",
     link: "https://medium.com/@remicknsisi/sinatra-active-record-and-react-walk-into-a-restaurant-bar-b4e0edba737d",
   },
   {
@@ -147,7 +154,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Dec 28",
+      "Dec 28, 2023",
     link: "https://medium.com/@remicknsisi/imperative-vs-declarative-programming-69c18f54464e",
   },
   {
@@ -155,7 +162,7 @@ export const blogs = [
     author:
       "Sisi Remick",
     date:
-      "Nov 7",
+      "Nov 7, 2023",
     link: "https://medium.com/@remicknsisi/my-first-blog-post-5817db0c6e8b",
   }
 ];

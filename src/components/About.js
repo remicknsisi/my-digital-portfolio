@@ -1,38 +1,64 @@
 import React from "react";
 
 export default function About() {
-  return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            I'm Sisi.
-            <br />I'm so happy you're here!
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            As a certified software engineer from Flatiron School, I am so excited to transition into the dynamic and rapidly evolving tech industry. Combining my full-stack coding skills with a strong background in both digital marketing and creative endeavors, I am eager to contribute my diverse skill set to tackle challenges and drive innovation in tech.
-          </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Get In Touch
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Work
-            </a>
-          </div>
+    return (
+        <div className="px-10 py-20">
+            <h1 className="text-3xl md:text-5xl mb-4 font-medium text-center">
+                About Me
+            </h1>
+            <div className="flex flex-wrap">
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    Hey, I'm Sisi (sounds like see-see). I'm a certified Software Engineer with a passion for both technology and creativity.
+                </p>
+                <div className="flex justify-center">
+                    <div className="p-2 mx-auto">
+                        <img
+                            className="max-h-96 border-8"
+                            alt="Sisi standing in front of the Hogwarts Express at Universal Studios"
+                            src="./HogwartsExpress.png"
+                        />
+                    </div>
+                    <div className="p-2 mx-auto">
+                        <img
+                            className="max-h-96 border-8"
+                            alt="Sisi's Flatiron School Softare Engineering Bootcamp Certificate"
+                            src="./Certificate.png"
+                        />
+                    </div>
+                </div>
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    My journey into the tech world has been a unique blend... starting by dipping my toes in the water at a creative brand agency (SMAKK Studios) where as an account coordinator I got an inside look at the creative marketing funnel. I was dazzled by the work of UX designers and web developers together to build or re-build beautiful brands from scratch. I later transitioned into my current role in Ad Operations at Horizon Media. In this role, I've learned to love working more technically - earning certifications in Google Campaign Manager, Double Verify, and Innovid. But I wanted more of a challenge.
+                </p>
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    In August of 2023, I achieved certification in Ruby, Ruby on Rails, React and JavaScript through the intensive Flatiron School Software Engineering bootcamp program, conquering a challenging curriculum in under a year. I'm actively looking for professional opportunities to dive into the tech world and put these skills to the test. My ideal role would exist in the periphery of designers, but let me continue to hone my coding skills by supporting them as a developer.
+                </p>
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    What sets me apart is my ability to learn quickly and adapt. I made the transition into Ad Operations from creative branding with no prior experience, quickly advancing to a senior-level role in just over a year. Precision and attention to detail have always been my forte, as I consistently conduct thorough quality assurance checks on self-generated and team-produced content.
+                </p>
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    I've also always been committed to giving my best effort in my academic pursuits. In high school, I had the honor of being the valedictorian, which I attribute to my dedication to learning and my genuine love for education. During my time at Boston College, I maintained a solid 3.7 GPA, which I'm proud of because it reflects my consistent commitment to excellence in my studies. Working for a company that champions ongoing education would be a dream!
+                </p>
+                <div className="p-2">
+                    <img
+                        className="max-h-96 border-8"
+                        alt="Sisi giving her valedictorian speech at GHS graduation 2016"
+                        src="./Graduation.png"
+                    />
+                </div>
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    Beyond the world of work, I'm a part-time dog sitter on the Rover app, proudly holding the title of a "star sitter" 🐶. Recently, I actually became the proud mother of a Pomeranian puppy! His name is Cowboy. :)
+                </p>
+                <div className="p-2">
+                    <img
+                        className="max-h-96 border-8"
+                        alt="Cowboy the Pomeranian"
+                        src="./Cowboy.png"
+                    />
+                </div>
+                <p className="pt-6 pb-5 text-lg md:text-xl">
+                    When I'm not coding or caring for furry friends, you'll find me on my yoga mat or indulging in the occasional arts & crafts project. I thrive on new challenges and am always eager to use my experiences and determined spirit to help others. Feel free to reach out to me—I'm always up for a good conversation!
+                </p>
+            </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./Smakk_Sienna_0566.JPG"
-          />
-        </div>
-      </div>
-    </section>
-  )
+    )
 }
