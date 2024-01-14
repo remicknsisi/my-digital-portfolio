@@ -4,12 +4,12 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
-    <div className="container px-5 py-10 mx-auto">
+    <div className="px-10 py-20">
       <div className="text-center mb-20">
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
+        <h1 className="text-3xl md:text-5xl mb-4 font-medium text-center">
           My Skills
         </h1>
-        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+        <p className="text-lg md:text-xl md:w-1/2 mx-auto">
           Explore my repertoire of technical skills, encompassing front-end technologies backed by a solid foundation in back-end database management and routing.
         </p>
       </div>

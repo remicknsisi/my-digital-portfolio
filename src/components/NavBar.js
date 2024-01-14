@@ -9,6 +9,7 @@ function NavBar() {
             <div className="flex justify-around">
                 <button onClick={() => navigate('/')} className="text-lg font-bold hover:text-gray">Home</button>
                 <button onClick={() => navigate('/about')} className="text-lg font-bold hover:text-gray">About</button>
+                <button onClick={() => navigate('/skills')} className="text-lg font-bold hover:text-gray">Skills</button>
                 <button onClick={() => navigate('/projects')} className="text-lg font-bold hover:text-gray">Projects</button>
                 <button onClick={() => navigate('/blog')} className="text-lg font-bold hover:text-gray">Blog</button>
                 <button onClick={() => navigate('/contact')} className="text-lg font-bold hover:text-gray">Contact</button>

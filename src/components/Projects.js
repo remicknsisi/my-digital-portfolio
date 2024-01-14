@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="px-10 py-20">
       <div className="flex flex-col w-full mb-20 items-center">
-        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
+        <h1 className="text-3xl md:text-5xl mb-4 font-medium text-center">
           My Projects
         </h1>
         <p className="lg:w-1/2 md:w-2/3 pt-6 pb-5 text-lg md:text-xl text-center">
